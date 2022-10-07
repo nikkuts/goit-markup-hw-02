@@ -1,7 +1,55 @@
-a {
-    color:rgb(187, 100, 100)
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
 }
 
-.link:hover {
-    color:blueviolet
+body {
+    background-color: #F5F5F5;
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none  
+    }
+
+/*logo*/
+.logo {
+    color: #2196F3;
+}
+
+.logo-black {
+    color: #000000;
+}
+
+.logo-white {
+    color: #FFFFFF;
+}
+
+.logo:hover, 
+.logo:focus {
+    color: #FF0000;
+}
+
+/*link*/
+.link:hover,
+.link:focus {
+    color:#FF0000;
+}
+
+/*title*/
+.benefits .title {
+    color: var(--title-text-color);
+}
+
+.activity .title {
+    color: var(--title-text-color);
+}
+
+.team .title {
+    color: var(--title-text-color);
+}
+
+.portfolio .title {
+    color: var(--title-text-color);
 }
