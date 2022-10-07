@@ -19,7 +19,12 @@ body {
     text-decoration: none;
 }
 
-/*LOGO*/
+.link:hover,
+.link:focus {
+    color:#2196F3;
+}
+
+/*HEADER*/
 
 .logo {
     color: #2196F3;
@@ -33,20 +38,12 @@ body {
     color: #FFFFFF;
 }
 
-.logo:hover, 
-.logo:focus {
-    color: #FF0000;
+.nav-link {
+    color: #212121;
 }
 
-/*LINK*/
-
-.link {
-    color: 
-}
-
-.link:hover,
-.link:focus {
-    color:#2196F3;
+.contact-link {
+    color: #757575
 }
 
 /*TITLE*/
