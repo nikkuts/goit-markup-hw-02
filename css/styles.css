@@ -1,3 +1,5 @@
+/*GENERAL STYLES*/
+
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -13,7 +15,12 @@ body {
     list-style: none;  
     }
 
-/*logo*/
+.link {
+    text-decoration: none;
+}
+
+/*LOGO*/
+
 .logo {
     color: #2196F3;
 }
@@ -31,13 +38,19 @@ body {
     color: #FF0000;
 }
 
-/*link*/
-.link:hover,
-.link:focus {
-    color:#FF0000;
+/*LINK*/
+
+.link {
+    color: 
 }
 
-/*title*/
+.link:hover,
+.link:focus {
+    color:#2196F3;
+}
+
+/*TITLE*/
+
 .benefits .title {
     color: var(--title-text-color);
 }
@@ -53,3 +66,4 @@ body {
 .portfolio .title {
     color: var(--title-text-color);
 }
+
