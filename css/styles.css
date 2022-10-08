@@ -34,10 +34,6 @@ body {
     color: #000000;
 }
 
-.logo-white {
-    color: #FFFFFF;
-}
-
 .nav-link {
     color: #212121;
 }
@@ -64,3 +60,18 @@ body {
     color: var(--title-text-color);
 }
 
+
+
+/*FOOTER*/
+
+.logo-white {
+    color: #FFFFFF;
+}
+
+.address-map-link {
+    color: #FFFFFF;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+}
