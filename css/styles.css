@@ -4,11 +4,13 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --primary-background-color: #F5F5F5;
 }
 
 body {
-    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
 }
 
 .list {
@@ -21,57 +23,224 @@ body {
 
 .link:hover,
 .link:focus {
-    color:#2196F3;
+    color: var(--accent-color);
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 /*HEADER*/
 
+.header {
+    background: #FFFFFF;
+}
+
 .logo {
-    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
 }
 
 .logo-black {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
     color: #000000;
 }
 
 .nav-link {
-    color: #212121;
-}
-
-.contact-link {
-    color: #757575;
-}
-
-/*TITLE*/
-
-.benefits .title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
 
-.activity .title {
+.contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+/*HERO*/
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: var(--accent-color);
+    cursor: pointer;
+}
+
+.hero-btn:hover, 
+.hero-btn:focus {
+    background: transparent;
+}
+
+/*BENEFITS*/
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--title-text-color);
 }
 
-.team .title {
+.benefits-text {
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+}
+
+/*ACTIVITY*/
+
+.activity-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
-.portfolio .title {
+/*TEAM*/
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
+.team-list-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
 
+.team-list-text {
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*PORTFOLIO*/
+
+.portfolio-filter-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background: #F5F4FA;
+    cursor: pointer;
+}
+
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+    color: #FFFFFF;
+    background: var(--accent-color); 
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
 
 /*FOOTER*/
 
+.footer {
+    background: #2F303A;
+}
+
 .logo-white {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
 .address-map-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
 .address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
