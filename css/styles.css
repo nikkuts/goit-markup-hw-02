@@ -46,7 +46,7 @@ body {
 /*HEADER*/
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31/26);
@@ -54,7 +54,7 @@ body {
 }
 
 .logo-black {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31/26);
@@ -91,7 +91,7 @@ body {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 136%;
+    line-height: calc(60/44);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -99,10 +99,10 @@ body {
 }
 
 .hero-btn {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
-    line-height: 188%;
+    line-height: calc(30/16);
     display: flex;
     align-items: center;
     text-align: center;
@@ -148,7 +148,6 @@ body {
     font-size: 36px;
     line-height: calc(42/36);
     text-align: center;
-    
     color: var(--title-text-color);
 }
 
@@ -187,10 +186,10 @@ body {
 }
 
 .portfolio-filter-btn {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: calc(26/16);
     text-align: center;
     color: var(--title-text-color);
     background: #F5F4FA;
@@ -206,14 +205,14 @@ body {
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 200%;
+    line-height: calc(36/18);
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
 
 .portfolio-text {
     font-size: 16px;
-    line-height: 188%;
+    line-height: calc(30/16);
     color: var(--primary-text-color);
 }
 
@@ -224,7 +223,7 @@ body {
 }
 
 .logo-white {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31/26);
@@ -233,12 +232,12 @@ body {
 
 .address-map-link {
     font-style: normal;
-    line-height: 171%;
+    line-height: calc(24/14);
     color: var(--white-color);
 }
 
 .address-link {
     font-style: normal;
-    line-height: 171%;
+    line-height: calc(24/14);
     color: rgba(255, 255, 255, 0.6);
 }
